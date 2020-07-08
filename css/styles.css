@@ -55,7 +55,5 @@ body {
 }
 img {
   border-radius: 50%;
-}
-img1 {
   filter: grayscale(100%);
 }
