@@ -16,17 +16,7 @@
             return isValid;
             
    }      
-/*
-    function isFormValid2(){  
-            let isValid = false;
-            if ($("#q2").val() == "Black" || "Red" ) {
-            isValid = true; 
-            $("#validationFdbk").html("Wrong color");
-            }
-            return isValid;
-   }
-   
- */
+
     
     function gradeQuiz() {
          $("validationFdbk").html("");
@@ -36,27 +26,21 @@
                 }
                 
                 
-    
-    
+
        var array=["Won", "Lost"];
     $('#button').bind('click', function() {
 
         var random = array[Math.floor(Math.random() * array.length)];
         $("h1").html(random);
     
-    });   
-    
+    });    
     }    
+    
+    
+    
      /*  global location */   
-     $(".play-again").on("click", function(){
+     $(".play").on("click", function(){
             location.reload();
         });    
 });
-       
-       
-       
-       
-       
-       
-            
-     
+   
