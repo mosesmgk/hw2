@@ -1,0 +1,61 @@
+header, main, nav, footer { 
+    text-align: center;
+}
+header {
+    font-family: 'MuseoModerno', cursive;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+main1 { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.warning {
+  border-color: #f44336;
+  color: red
+}
+
+body {
+    background-color:green;
+    color:black;
+   
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid black;
+
+  border-bottom: 16px solid red;
+
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+   margin-left: auto;
+    margin-right: auto;  
+    
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+img {
+  border-radius: 50%;
+}
+img1 {
+  filter: grayscale(100%);
+}
